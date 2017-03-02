@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_creation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jogps"
+    tools:context="fr.wcs.monsterwikilegends.Creation">
+
+    <CheckBox
+        android:text="@string/lumiere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:id="@+id/checkBox"
+        android:layout_below="@+id/textView"
+        android:textSize="@dimen/checkbox" />
+
+    <CheckBox
+        android:text="@string/mort"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox"
+        android:layout_alignParentStart="true"
+        android:id="@+id/checkBox2"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/foudre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox4"
+        android:layout_alignStart="@+id/checkBox4"
+        android:id="@+id/checkBox5"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/eau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox6"
+        android:layout_alignStart="@+id/checkBox6"
+        android:id="@+id/checkBox7"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/magie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox2"
+        android:layout_alignParentStart="true"
+        android:id="@+id/checkBox8"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/feu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox7"
+        android:layout_alignEnd="@+id/checkBox7"
+        android:id="@+id/checkBox10"
+        android:layout_alignBottom="@+id/checkBox9"
+        android:textSize="@dimen/checkbox"
+        android:layout_alignStart="@+id/checkBox7" />
+
+    <CheckBox
+        android:text="@string/nature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox6"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/special"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4"
+        android:layout_below="@+id/textView"
+        android:layout_alignEnd="@+id/textView"
+        android:textSize="@dimen/checkbox"/>
+
+    <CheckBox
+        android:text="@string/terre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/checkBox9"
+        android:layout_alignStart="@+id/checkBox9"
+        android:id="@+id/checkBox11"
+        android:textSize="@dimen/checkbox"/>
+
+    <TextView
+        android:text="@string/Choix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:text="@string/creerMonstre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttoncreationtolist"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <CheckBox
+        android:text="@string/metal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox9"
+        android:textSize="@dimen/checkbox"
+        android:layout_below="@+id/checkBox5"
+        android:layout_alignStart="@+id/checkBox5" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@+id/buttoncreationtolist"
+        android:layout_toEndOf="@+id/checkBox" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/seekBar2"
+        android:layout_above="@+id/seekBar"
+        android:layout_alignStart="@+id/seekBar" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:id="@+id/seekBar3"
+        android:layout_above="@+id/seekBar2"
+        android:layout_alignStart="@+id/seekBar2" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/seekBar4"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/seekBar3"
+        android:layout_alignStart="@+id/seekBar3" />
+
+    <TextView
+        android:text="@string/resistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/seekBar4"
+        android:layout_alignEnd="@+id/checkBox2"
+        android:id="@+id/textView2"
+        android:textSize="@dimen/textView"/>
+
+    <TextView
+        android:text="@string/stamina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar4"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView3"
+        android:textSize="@dimen/textView"/>
+
+    <TextView
+        android:text="@string/vitesse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar3"
+        android:layout_alignStart="@+id/textView2"
+        android:id="@+id/textView4"
+        android:textSize="@dimen/textView"/>
+
+    <TextView
+        android:text="@string/force"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar2"
+        android:layout_alignStart="@+id/textView4"
+        android:id="@+id/textView5"
+        android:textSize="@dimen/textView"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:gravity="center"
+        android:hint="@string/nom"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_below="@+id/checkBox11"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/treezard_3"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/seekBar4"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_marginBottom="11dp"
+        android:layout_below="@+id/editText" />
+</RelativeLayout>
+
+
+

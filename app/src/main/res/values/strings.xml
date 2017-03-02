@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Monster Wiki Legends</string>
+    <string name="creationtxt">Création</string>
+    <string name="bestiairetxt">Bestiaire</string>
+    <string name="Choix">Choisis ta classe :</string>
+    <string name="eau">Eau</string>
+    <string name="terre">Terre</string>
+    <string name="feu">Feu</string>
+    <string name="lumiere">Lumière</string>
+    <string name="magie">Magie</string>
+    <string name="foudre">Foudre</string>
+    <string name="metal">Metal</string>
+    <string name="nature">Nature</string>
+    <string name="mort">Mort</string>
+    <string name="special">Special</string>
+    <string name="nom">Nom de votre monstre</string>
+    <string name="creerMonstre">Créer votre monstre</string>
+    <string name="resistance">Résistance</string>
+    <string name="stamina">Stamina</string>
+    <string name="vitesse">Vitesse</string>
+    <string name="force">Force</string>
+</resources>
